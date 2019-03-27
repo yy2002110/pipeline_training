@@ -22,7 +22,6 @@ stages:
       registry: 172.29.7.238:5000
     env:
       PLUGIN_INSECURE: "true"
-      PLUGIN_MIRROR: http://172.29.7.238:8081
 - name: Deploy
   steps:
   - applyYamlConfig:

@@ -22,6 +22,7 @@ stages:
       registry: 172.29.7.238:5000
     env:
       PLUGIN_INSECURE: "true"
+      PLUGIN_DEBUG: "true" 
 - name: Deploy
   steps:
   - applyYamlConfig:

@@ -19,7 +19,7 @@ stages:
       buildContext: .
       tag: example-greenhouse:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
-      registry: registry-inc.jiagouyun.com
+      registry: 172.29.7.238:5000
     env:
       PLUGIN_INSECURE: "true"
       PLUGIN_MIRROR: http://sonatype-nexus-service.sonatype-nexus:8083
